@@ -15,10 +15,7 @@ class ViewController: UIViewController, AVCaptureMetadataOutputObjectsDelegate{
     var previewLayer: AVCaptureVideoPreviewLayer!
     var highlightView : UIView = UIView()
     
- 
-    
-    @IBOutlet var nbrPZNLabel: UILabel!
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
         
