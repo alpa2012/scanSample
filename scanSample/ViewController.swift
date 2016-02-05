@@ -99,7 +99,7 @@ class ViewController: UIViewController, AVCaptureMetadataOutputObjectsDelegate{
     
     
     func failed() {
-        let ac = UIAlertController(title: "Hinweis", message: "Das Scannen wir nicht von Ihrem Gerät unterstützt", preferredStyle: .Alert)
+        let ac = UIAlertController(title: "Info", message: "Scanning not supported", preferredStyle: .Alert)
         ac.addAction(UIAlertAction(title: "OK", style: .Default, handler: nil))
         presentViewController(ac, animated: true, completion: nil)
         captureSession = nil
